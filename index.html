@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript/index.js"></script>
+</head>
+
+<body>
+    <div class="card">
+        <input type="text" placeholder="0" id="display">
+        <div class="buttons">
+            <input type="button" onclick="allClear()" value="AC" id="ac" class="smaller">
+            <input type="button" onclick="del()" value="DEL" id="del" class="smaller">
+            <input type="button" onclick="show('/')" value="/" id="division" class="smaller">
+            <input type="button" onclick="show('*')" value="*" id="multiply" class="smaller">
+            <input type="button" onclick="show('-')" value="-" id="subtraction" class="smaller">
+            <input type="button" onclick="show('+')" value="+" id="summetion" class="bigger">
+            <input type="button" onclick="solve()" value="=" id="equal" class="smaller">
+            <input type="button" onclick="show('7')" value="7" id="number-7" class="smaller">
+            <input type="button" onclick="show('8')" value="8" id="number-8" class="smaller">
+            <input type="button" onclick="show('9')" value="9" id="number-9" class="smaller">
+            <input type="button" onclick="show('4')" value="4" id="number-4" class="smaller">
+            <input type="button" onclick="show('5')" value="5" id="number-5" class="smaller">
+            <input type="button" onclick="show('6')" value="6" id="number-6" class="smaller">
+            <input type="button" onclick="show('1')" value="1" id="number-1" class="smaller">
+            <input type="button" onclick="show('2')" value="2" id="number-2" class="smaller">
+            <input type="button" onclick="show('3')" value="3" id="number-3" class="smaller">
+            <input type="button" onclick="show('0')" value="0" id="number-0" class="smaller">
+            <input type="button" onclick="show('.')" value="." id="point" class="smaller">
+        </div>
+
+    </div>
+</body>
+
+</html>
